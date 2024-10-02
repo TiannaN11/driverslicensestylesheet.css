@@ -1,0 +1,79 @@
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content:center;
+}
+
+.license {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 300px;
+    height: 150px;
+}
+
+.license aside .headshot {
+    border-radius: 5px;
+    background-color: lightpink;
+    width: 85px;
+    min-height: 100px;
+}
+
+.license aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.license article h3 {
+    margin-top: unset;
+    padding-top: unset;
+    border-bottom: 1px solid black;
+}
+
+.license article h5 {
+    margin-top: 1rem;
+}
+
+.license article p {
+
+}
+
+article .eye-color{
+    display: flex;
+    /*flex-direction: column;*/
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name {
+    margin-top: 1rem;
+}
+
+.box{
+    height: 30px;
+    width: 30px;
+}
+
+.box.blue{
+    background-color: blue;
+    /*display: flex;*/
+}
+
+.box.brown{
+    background-color: brown;
+    /*display: flex;*/
+}
+
+.box.green{
+    background-color: green;
+    /*display: flex;*/
+}

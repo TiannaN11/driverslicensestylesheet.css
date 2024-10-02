@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>A little flexbox thing</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="license">
+        <aside>
+            <div class="headshot"></div>
+            <h5>Age: 8 years</h5>
+        </aside>
+        <article>
+            <h3>Person Name</h3>
+            <div class="eye-color">
+                <div class="name">Eyes: Brown</div>
+                <div class="box brown"></div>
+            </div>
+            <p>meow meow meow</p>
+        </article>
+
+    </div><div class="license">
+        <aside>
+            <div class="headshot"></div>
+            <h5> Age: 20 years</h5>
+        </aside>
+    <article>
+        <h3>Person Name</h3>
+        <div class="eye-color">
+            <div class="name">Eyes: Blue</div>
+            <div class="box blue"></div>
+        </div>
+        <p>meow meow meow</p>
+        </article>
+
+     </div><div class="license">
+        <aside>
+            <div class="headshot"></div>
+            <h5> Age: 21 years</h5>
+        </aside>
+        <article>
+            <h3>Person Name</h3>
+            <div class="eye-color">
+                <div class="name">Eyes: Green</div>
+                <div class="box green"></div>
+            </div>
+            <p>meow meow meow</p>
+        </article>
+
+    </div>
+
+
+
+
+
+
+</div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS media query</title>
+    <style>
+        body {
+            text-align: center;
+        }
+
+        .header {
+            font-size: 40px;
+            font-weight: bold;
+            color: green;
+        }
+
+        @media screen and (max-width:800px) {
+            body {
+                text-align: center;
+                background-color: green;
+            }
+
+            .header {
+                font-size: 30px;
+                font-weight: bold;
+                color: white;
+            }
+
+            .copy {
+                color: white;
+            }
+        }
+
+        @media screen and (max-width:500px) {
+            body {
+                text-align: center;
+                background-color: blue;
+            }
+        }
+    </style>
+</head>
+
+<body>
+<div class="header">
+    Example
+</div>
+<div class="copy">
+    Some sample copy here
+</div>
+</body>
+
+</html>
+
+
